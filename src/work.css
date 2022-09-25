@@ -1,0 +1,104 @@
+/* WORK */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+  
+  }
+  
+  .allWorks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    background-color: grey;
+    height: 85vh;
+    width: 100%;
+    overflow-y: hidden;
+    -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .card {
+    position: relative;
+    display: flex;
+  
+    flex-basis: 50%;
+    height: 100%;
+    background-color: rgb(97, 115, 82);
+    /* -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75); */
+  }
+  
+  .works {
+    display: inline-block;
+  
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  
+  
+    /* background-color: #a56a9c; */
+    /* padding: 3rem; */
+  
+  
+  }
+  
+  .myWorks {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  
+  .t-work {
+    /* border: 0.5rem solid black; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 2rem; */
+  }
+  
+  .work-img {
+    width: 100%;
+    object-fit: inherit;
+
+  
+  }
+  
+  .ash {
+    width: 100%;
+    object-fit:cover;
+  }
+  
+  .arrow {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 45%;
+  
+    /* background-color: aqua; */
+    width: 95%;
+    margin: 1rem;
+  
+  }
+  
+  .points a {
+    text-decoration: none;
+    margin: 0.5rem;
+  }
+  
+  .points {
+    display: flex;
+    justify-content: center;
+  
+  }
+  

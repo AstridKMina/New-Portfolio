@@ -1,0 +1,104 @@
+/* I do */
+
+
+
+.do {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  
+    align-items: center;
+    /* -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75); */
+  
+  }
+  
+  .do h1 {
+    font-size: 1.8rem;
+    color: black;
+  
+  }
+  
+  .do h3 {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px #919191,
+      1px 2px 1px #090909,
+      1px 3px 1px #090909,
+      /* 1px 4px 1px #090909, */
+      /* 1px 5px 1px #090909, */
+      /* 1px 6px 1px #090909,
+      1px 7px 1px #090909, */
+      /* 1px 8px 1px #090909,
+      1px 9px 1px #090909,
+      1px 10px 1px #090909, */
+      /* 1px 18px 6px rgba(16, 16, 16, 0.4), */
+      /* 1px 22px 6px rgba(16, 16, 16, 0.2), */
+      1px 25px 6px rgba(16, 16, 16, 0.2),
+      1px 30px 6px rgba(16, 16, 16, 0.4);
+  }
+  
+  .prove {
+    height: 95%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .canDo {
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 70%;
+    background-color: beige;
+    border-radius: 1rem;
+    -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .do-left {
+    width: 35%;
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .do-title {
+    margin-top: 3rem;
+  
+  }
+  
+  .do-info {
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .do-img {
+    width: 65%;
+    display: inline;
+    align-items: flex-end;
+  
+  }
+  
+  .canDo p {
+    text-align: justify;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .bWoman {
+    width: 70%;
+    height: 28rem;
+    margin: 0;
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+  }
+/*    */

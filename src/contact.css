@@ -1,0 +1,129 @@
+
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  
+  .myContact {
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+
+  
+  }
+  
+  .contact-img {
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    /* border-right: 0.1rem solid white; */
+  
+  }
+  
+  .contact-img img {
+    width: 30rem;
+    height: 40rem;
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+  }
+  
+  .userform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1c8956a;
+    width: 30%;
+    height: 20rem;
+    margin-top: 8rem;
+    border-radius: 1rem;
+    border-left: 0.1rem solid white;
+    margin-left: 1rem;
+    -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .divInput {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  
+  }
+  
+  .divInput label {
+    margin-right: 1rem;
+  }
+  
+  .myInput {
+    width: 20vw;
+  }
+  
+  input {
+    border-radius: 10%;
+    height: 1.2rem;
+    margin: 0.2rem;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: calc(8px + 1.1vmin);
+    flex-basis: 50%;
+  }
+  
+  .btn button {
+    font-family: papyrus;
+    width: 30%;
+    border-radius: 10%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    color: rgb(54, 54, 160);
+  }
+  
+  ::placeholder {
+    font-family: papyrus;
+  }
+  
+  .conect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  .call {
+    margin-bottom: 1rem;
+  }
+  
+  .social button {
+    /* margin-right: 3rem; */
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+    /* -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75); */
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+  
+  }
+  
+  footer {
+    margin-top: 1rem;
+    background-color: #090909;
+    color: white;
+  }

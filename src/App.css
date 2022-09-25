@@ -1,0 +1,304 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #035096; */
+  /* background-color: rgba(0, 0,0, 0.9); */
+  color: rgb(15, 12, 12);
+}
+
+.App h1 {
+  font-size: 1.8rem;
+  color: black;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #090909,
+    1px 3px 1px #090909,
+    1px 4px 1px #090909,
+    1px 5px 1px #090909,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 6px rgba(16, 16, 16, 0.2),
+    1px 25px 6px rgba(16, 16, 16, 0.2),
+    1px 30px 6px rgba(16, 16, 16, 0.4);
+}
+
+.navBar {
+  display: flex;
+  justify-content: right;
+  padding-right: 3rem;
+  color: rgb(9, 8, 8);
+  border-bottom: 0.1rem solid white;
+}
+
+.navBar p {
+  font-weight: bold;
+  margin: 1rem;
+
+}
+
+/* Scroll */
+
+.sections {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+
+}
+
+.sections section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+
+
+/* Profile */
+
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  position: relative;
+  background-image: url("https://img.freepik.com/premium-vector/white-empty-room-3d-modern-blank-interior-vector-home-background_53562-4005.jpg?w=360");
+  /* background-image: url("https://img2.freepng.es/20180125/jvw/kisspng-wall-brick-poster-3d-brick-5a6a34e978dc83.0575505315169098014951.jpg"); */
+  /* background-image: url("https://img.freepik.com/fotos-premium/ruptura-pared-negra-forma-ovalo-ilustracion-3d_291814-1646.jpg"); */
+  /* background-image: url("https://img.freepik.com/fotos-premium/representacion-3d-kit-arbol-pequeno-mediano-grande-cubierto-nieve-blanca-aislado-fondo-blanco-estilo-juguete-minimalista-dibujos-animados_187882-1158.jpg?w=2000"); */
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/000/263/019/non_2x/vector-cartoon-wide-desert.jpg"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+
+}
+
+.profile-up {
+  height: 10%;
+}
+
+.profile-up button {
+  background-color: transparent;
+  border: none;
+}
+
+.profile-down {
+  height: 90%;
+}
+
+.myProfile {
+  display: block;
+  flex-direction: column;
+  width: 50%;
+  /* align-items: center; */
+
+  padding: 4rem;
+
+}
+
+.myProfile h1 {
+  font-size: 4rem;
+  color: rgb(21, 14, 14);
+  position: relative;
+  z-index: 10;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #090909,
+    1px 3px 1px #090909,
+    1px 4px 1px #090909,
+    1px 5px 1px #090909,
+    /* 1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191, */
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 6px rgba(16, 16, 16, 0.2),
+    1px 25px 6px rgba(16, 16, 16, 0.2),
+    1px 30px 6px rgba(16, 16, 16, 0.4);
+}
+
+.myProfile h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  position: relative;
+  z-index: 10;
+
+  color: black;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #090909,
+    1px 3px 1px #090909,
+    1px 4px 1px #090909,
+    1px 5px 1px #090909,
+    /* 1px 6px 1px #090909,
+    1px 7px 1px #090909, */
+    /* 1px 8px 1px #090909,
+    1px 9px 1px #090909,
+    1px 10px 1px #090909, */
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 6px rgba(16, 16, 16, 0.2),
+    1px 25px 6px rgba(16, 16, 16, 0.2),
+    1px 30px 6px rgba(16, 16, 16, 0.4);
+}
+
+.myProfile p {
+  position: relative;
+  z-index: 10;
+
+  color: #090909;
+}
+
+.profile-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.09rem solid black;
+  border-right: 0.09rem solid black;
+  width: 38%;
+  position: absolute;
+  top: 18rem;
+  background-color: white;
+  overflow: hidden;
+}
+
+.profile-job {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+  border-bottom: 0.09rem solid black;
+  border-right: 0.09rem solid black;
+  border-top: 0.09rem solid black;
+  border-left: 0.09rem solid black;
+
+  width: 20rem;
+  background-color: white;
+
+  position: absolute;
+  z-index: 1;
+  top: 58%;
+  left: 30%;
+
+  overflow: hidden;
+}
+
+.profile-description {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+
+  position: absolute;
+  top: 69%;
+  width: 35rem;
+
+  background-color: white;
+  border-bottom: 0.09rem solid black;
+  border-right: 0.09rem solid black;
+  color: #090909;
+
+  overflow: hidden;
+  z-index: 10;
+
+}
+
+.profile-box {
+  background-color: #0f0d0d;
+  box-shadow: 10px 10px;
+  /* -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.profile-box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 15rem;
+  /* -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75); */
+  /* background: black; */
+  box-shadow: 0 5px #ebcd29,
+    0 0 10px #ebcd29,
+    0 0 20px #ebcd29,
+    0 0 40px #faee73,
+    0 0 80px #faee73,
+    0 0 90px #faee73,
+    0 0 100px #faee73,
+    0 0 140px #faee73,
+    0 0 180px #faee73;
+  animation: animate 4s linear infinite;
+}
+
+.profile-box::after {
+  content: "";
+  position: absolute;
+  inset: 0.15rem;
+  background: white;
+
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+    transform: rotate(350deg);
+  }
+}
+
+
+.picture {
+  box-sizing: border-box;
+  width: 50%;
+  margin: auto 0;
+  /* background-image: url("../src/Assets/wall.jpg"); */
+  background-image: url("https://i.ytimg.com/vi/CbbwBF1V6AM/maxresdefault.jpg");
+  /* background-image: url(){}; */
+  /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-cartoon-3d-e-commerce-background-download-image_228964.jpg"); */
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: bottom;
+  /* position: relative;
+  z-index: 1; */
+
+}
+
+.girl {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  width: 60rem;
+  z-index: 3;
+  -webkit-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+
+}
+
+.dog {
+  position: absolute;
+  top: 31rem;
+  right: 4rem;
+  width: 15rem;
+  height: 8rem;
+  filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
